@@ -1,0 +1,12 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+tensorflow
+opencv-python
+boto3
+flask
+flask-cors
+reportlab
+python-dotenv
+joblib

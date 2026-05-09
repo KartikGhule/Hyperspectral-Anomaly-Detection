@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Secrets - NEVER commit these
+.env
+Backend/config.py
+
+# Large data files - store separately (S3, Google Drive, etc.)
+data/input/
+data/output/
+static/output/
+
+# Trained model binaries - regenerate with train scripts
+models/saved_models/
+
+# OS
+.DS_Store
+Thumbs.db
